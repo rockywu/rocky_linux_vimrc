@@ -90,6 +90,9 @@ set sessionoptions+=sesdir
 set nobackup
 set nowb
 
+#设置默认编码格式
+set encoding=utf-8
+
 "取消使用SWP文件缓冲
 set noswapfile
 
@@ -106,7 +109,7 @@ set whichwrap=b,s,<,>,[,]
 "将一个tab设置为>-格式,用$结尾
 "set listchars=tab:>-,eol:$
 "set listchars=tab:>-
-set listchars=tab:›\ ,trail:•,extends:#,nbsp:.
+set listchars=tab:›-,trail:•,extends:#,nbsp:.
 
 " Command <Tab> completion, list matches, then longest common part, then all.
 set wildmode=list:longest,full
