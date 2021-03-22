@@ -90,7 +90,7 @@ set sessionoptions+=sesdir
 set nobackup
 set nowb
 
-#设置默认编码格式
+"设置默认编码格式
 set encoding=utf-8
 
 "取消使用SWP文件缓冲
